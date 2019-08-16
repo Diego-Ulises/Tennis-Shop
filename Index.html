@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Adidas Shop</title>
+        <link rel="stylesheet" type="text/css" href="css/shop.css">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+
+    	<div class="Div_Body">
+			<div class="Navegacion_Superior">
+
+					<div class="container">
+				<div class="Menu_Superior">
+					<img id="Logo_Superior" src='IMG/adidas-logo.jpg'>
+					<ul class="Menu">
+					<li><a class="Menu" href="#">Home</a></li> 
+					<li><a class="Menu" href="#">Shop</a></li>
+					<li><a class="Menu" href="#">Buy now</a></li>
+					</ul>
+						<div class="dropdown" style="margin-right: 1000px;">
+						    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown"><img src="IMG/shopping-cart.png"></button>
+
+						    <ul class="dropdown-menu dropdown-menu-left" style="text-align: center;">
+						      <li><a href="#"><img src="IMG/Imagen1.jpg" style="width: 50px; height: 50px;"></a></li>
+						      <li><a href="#">Accesories</a></li>
+						      <li><a href="#">&#8364;45.00</a></li>
+						      <li class="divider"></li>
+						      <li><a href="#">1 Item</a></li>
+						      <li><a href="#"><img src="IMG/Imagen3.jpg" style="width: 50px; height: 50px;"></a></li>
+						      <li><a href="#">Accesories 2</a></li>
+						      <li><a href="#">&#8364;67.00</a></li>
+						      <li class="divider"></li>
+						      <li><a href="#">2 Item</a></li>
+						    </ul>
+						</div>
+					</div>	
+				</div>		
+			</div>
+		<div class="Portada_Banners">
+		</div>
+
+		<div class="Encabezado">
+			<p class="Titulo">
+				trending </br>
+				<span class="Subtitulo">most trendy clothes 
+				<hr class="Linea"> 
+				</span>
+			</p> 
+		</div>
+
+		<div class="Producto">
+
+			<div  class="Tarjeta1" style="background-image: url('C:/xampp/htdocs/Proyecto TAP/IMG/shirt-1.png');">
+				<p class="Texto">
+					</br></br></br></br></br></br></br></br>
+					<b>Paul Smith</b></br>
+					<span class="Categoria">Accesories</span>
+					</br>
+					<span class="Precio">&#8364;45.00</span>
+
+				</p>
+				<button class="buttonB buttonAdd" id="Add" onclick="addToCart()">Add to cart</button>
+				<script>
+				function addToCart() {
+				    document.getElementById("Add").innerHTML = "Añadido";
+				}
+				</script>
+			</div>
+
+			<div  class="Tarjeta2">
+				<p class="Texto">
+					</br></br></br></br></br></br></br></br>
+					<b>Pocket Watch</b></br>
+					<span class="Categoria">Accesories</span>
+					</br>
+					<span class="Precio">&#8364;16.00</span>
+				</p>
+				<button class="buttonB buttonAdd" id="Add2" onclick="addToCart2()">Add to cart</button>
+				<script>
+				function addToCart2() {
+				    document.getElementById("Add2").innerHTML = "Añadido";
+				}
+				</script>
+			</div>
+
+			<div  class="Tarjeta3">
+				<p class="Texto">
+					</br></br></br></br></br></br></br></br>
+					<b>Paul Smith</b></br>
+					<span class="Categoria">Accesories</span>
+					</br>
+					<span class="Precio">&#8364;45.00</span>
+				</p>
+				<button class="buttonB buttonAdd" id="Add3" onclick="addToCart3()">Add to cart</button>
+				<script>
+				function addToCart3() {
+				    document.getElementById("Add3").innerHTML = "Añadido";
+				}
+				</script>
+			</div>
+			
+			<div  class="Tarjeta4">
+				<p class="Texto">
+					</br></br></br></br></br></br></br></br>
+					<b>Pocket Watch</b></br>
+					<span class="Categoria">Accesories</span>
+					</br>
+					<span class="Precio">&#8364;45.00</span>
+				</p>
+				<button class="buttonB buttonAdd" id="Add4" onclick="addToCart4()">Add to cart</button>
+				<script>
+				function addToCart4() {
+				    document.getElementById("Add4").innerHTML = "Añadido";
+				}
+				</script>
+			</div>
+		</div>
+	</div>
+    </body>
+</html>
