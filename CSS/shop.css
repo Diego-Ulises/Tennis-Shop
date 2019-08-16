@@ -1,0 +1,269 @@
+body {
+width : 1170;
+margin-left : auto;
+margin-right : auto;
+padding : 0px;
+text-align: center;
+
+background-color: white; 
+color: #3b3b3b;
+
+font-family: "Roboto-ThinItalic";
+
+}
+
+@font-face{
+	font-family: "Roboto-ThinItalic";
+	src: url(../FONTS/Roboto-ThinItalic.ttf);
+}
+
+@font-face{
+	font-family: "Roboto-Medium";
+	src: url(../FONTS/Roboto-Medium.ttf);
+}
+.Navegacion_Superior{
+	height: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 1170px;
+}
+
+.Div_Body .Portada_Banners{
+	height: 500px;
+	background-image: url('../IMG/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+#Logo_Superior{
+	width: 100px;
+	display: inline-block;
+}
+
+#Shopping_Cart{
+	width: 28px;
+	float: right ;
+}
+.buttonB {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 2px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.buttonAdd {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.buttonAdd:hover {
+    background-color: #555555;
+    color: white;
+}
+
+.Encabezado{
+	width: 1170px;
+	text-align: left;
+	text-transform: uppercase;
+	padding-left: 375px;
+}
+
+.Titulo{
+	
+	font-family: "Roboto-Medium";
+	font-size: 16px;
+}
+
+.Subtitulo{
+	font-size: 10px;
+	padding-bottom: 10px;
+	font-family: "Roboto-ThinItalic";
+}
+
+.Linea{
+	display: inline-block;
+	width: 10px;
+	height: 2px;
+	background-color: black;
+	border-color: black;
+}
+
+.Producto{
+	text-align: left;
+	padding-left: 375px;
+}
+
+.Tarjeta1{
+	width: 140px;
+	height: 140px;
+	background-color: #eeeeee;
+	display: inline-block;
+	margin-right: 15px;
+	background-image: url('../IMG/shirt-1.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% 90%;
+	margin-bottom: 10px;
+}
+
+.Tarjeta2{
+	width: 140px;
+	height: 140px;
+	background-color: #eeeeee;
+	display: inline-block;
+	margin-right: 15px;
+	background-image: url('../IMG/shirt-2.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% 90%;
+	margin-bottom: 10px;
+}
+
+.Tarjeta3{
+	width: 140px;
+	height: 140px;
+	background-color: #eeeeee;
+	display: inline-block;
+	margin-right: 15px;
+	background-image: url('../IMG/shirt-3.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% 90%;
+	margin-bottom: 10px;
+}
+
+.Tarjeta4{
+	width: 140px;
+	height: 140px;
+	background-color: #eeeeee;
+	display: inline-block;
+	background-image: url('../IMG/shirt-4.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% 90%;
+	margin-bottom: 10px;
+}
+
+.Texto{
+	font-size: 12px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-style: bold;
+}
+
+.Categoria{
+	font-size: 8px;
+	padding-bottom: 12px;
+	color: #9c9c9c;
+}
+.Slug{
+	font-size: 8px;
+	padding-bottom: 12px;
+	font-style: italic;
+}
+
+.Precio{
+	color: #DF013A;
+	font-size: 10px;
+	text-decoration: underline wavy red; 
+}
+.Tarjeta .Texto .PrecioOferta{
+	color: #0489B1;
+	font-size: 10px;
+}
+
+.Menu{
+	display: inline-block;
+	text-align: center;
+	color: #3b3b3b;
+}
+.Menu li{
+	display: inline-block;
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+.Produ{
+	font-size: 12px;
+	font-style: bold;
+	margin-right: 100px;
+	display: inline-block;
+}
+
+.NomCat{
+	font-size: 8px;
+	color: #9c9c9c;
+	padding-right: 125px;
+}
+
+.T{
+	display: inline-block;
+	margin-right: 15px;
+	width: 140px;
+	height: 140px;
+	background-color: #eeeeee;
+}
+
+.Tarjeta{
+	display: inline-block;
+	margin-right: 15px;
+	width: 140px;
+	height: 140px;
+	background-color: #eeeeee;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% 100%;
+	margin-bottom: 10px;
+}
+.T5{
+	background-image: url('../IMG/Imagen1.jpg');
+}
+.T6{
+	background-image: url('../IMG/Imagen2.jpg');
+}
+.T7{
+	background-image: url('../IMG/Imagen3.jpg');
+}
+.T8{
+	background-image: url('../IMG/Imagen4.jpg');
+}
+.T9{
+	background-image: url('../IMG/Imagen5.jpg');
+}
+.T10{
+	background-image: url('../IMG/Imagen6.jpg');
+}
+.T11{
+	background-image: url('../IMG/Imagen7.jpg');
+}
+.T12{
+	background-image: url('../IMG/Imagen8.jpg');
+}
+.T13{
+	background-image: url('../IMG/Imagen9.jpg');
+}
+.T14{
+	background-image: url('../IMG/Imagen10.jpg');
+}
+#Info{
+	padding-left: 20%;
+}
+
+#Texto{
+	padding: 10px;
+}

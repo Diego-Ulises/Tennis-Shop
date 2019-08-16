@@ -1,0 +1,18 @@
+{
+	"array":[
+		{"IDCamisa":"1","NCamisa":"Paul Smith","Categoria":"Accesories","Precio":"&#8364;45.00","IMG":"IMG/shirt-1.png"},
+		{"IDCamisa":"2","NCamisa":"Pocket Watch","Categoria":"Accesories","Precio":"&#8364;16.00","IMG":"IMG/shirt-2.png"},
+		{"IDCamisa":"3","NCamisa":"Paul Smith","Categoria":"Accesories","Precio":"&#8364;45.00","IMG":"IMG/shirt-3.png"},
+		{"IDCamisa":"4","NCamisa":"Pocket Watch","Categoria":"Accesories","Precio":"&#8364;16.00","IMG":"IMG/shirt-4.png"},
+		{"IDCamisa":"5","NCamisa":"Adidas Black","Categoria":"Accesories","Precio":"&#8364;25.00","IMG":"IMG/Imagen1.jpg"},
+		{"IDCamisa":"6","NCamisa":"Adidas Blue","Categoria":"Accesories","Precio":"&#8364;80.00","IMG":"IMG/Imagen2.jpg"},
+		{"IDCamisa":"7","NCamisa":"Adidas White","Categoria":"Accesories","Precio":"&#8364;98.00","IMG":"IMG/Imagen3.jpg"},
+		{"IDCamisa":"8","NCamisa":"Adidas Turquoise","Categoria":"Accesories","Precio":"&#8364;13.00","IMG":"IMG/Imagen4.jpg"},
+		{"IDCamisa":"9","NCamisa":"Adidas Yellow","Categoria":"Accesories","Precio":"&#8364;32.00","IMG":"IMG/Imagen5.jpg"},
+		{"IDCamisa":"10","NCamisa":"Adidas Pink","Categoria":"Accesories","Precio":"&#8364;32.00","IMG":"IMG/Imagen6.jpg"},
+		{"IDCamisa":"11","NCamisa":"Adidas Orange Polo","Categoria":"Accesories","Precio":"&#8364;132.00","IMG":"IMG/Imagen7.jpg"},
+		{"IDCamisa":"12","NCamisa":"Adidas Green","Categoria":"Accesories","Precio":"&#8364;60.00","IMG":"IMG/Imagen8.jpg"},
+		{"IDCamisa":"13","NCamisa":"Adidas Gray","Categoria":"Accesories","Precio":"&#8364;150.00","IMG":"IMG/Imagen9.jpg"},
+		{"IDCamisa":"14","NCamisa":"Adidas Red","Categoria":"Accesories","Precio":"&#8364;96.00","IMG":"IMG/Imagen10.jpg"}
+	]	
+}
